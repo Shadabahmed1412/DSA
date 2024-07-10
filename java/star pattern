@@ -1,0 +1,27 @@
+
+class patten {
+
+    public static void main(String args[]) {
+        System.out.println("This is in main method");
+        patten patternObj = new patten();
+        patternObj.StarPatter();
+        
+    }
+
+     void StarPatter() {
+        for (int row = 1; row <= 5; row++) {
+            for (int col = 1; col <= row; col++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+}
+
+// output is below 
+// *
+// **
+// ***
+// ****
+// *****
