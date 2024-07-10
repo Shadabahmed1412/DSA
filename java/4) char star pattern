@@ -1,0 +1,32 @@
+
+
+public class charater_starpatern {
+    public static void main(String[] args) {
+        charater_starpatern pattern =new charater_starpatern();
+        pattern.charstarpatern();
+
+    }
+    
+
+
+
+ void charstarpatern(){
+        int n=4;
+            char ch='A';
+            for(int i=1;i<=n;i++){
+                for(int j=1;j<=i;j++){
+                    System.out.print(ch);
+                    ch++;
+                }
+                System.out.println();
+            }
+        }
+    }
+
+
+
+//this is the output od the code
+//A
+//BC
+//DEF
+//GHIJ
