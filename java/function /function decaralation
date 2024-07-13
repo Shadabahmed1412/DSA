@@ -1,0 +1,13 @@
+public class function_decalaration {
+     public static void helloshadab(){
+        System.out.println("hello : shadab ");
+        System.out.println("hello : shadab ");
+     }
+    public static void main(String[] args) {
+        helloshadab();
+        helloshadab();
+        helloshadab();
+        
+
+    }
+}
