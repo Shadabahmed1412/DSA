@@ -1,0 +1,41 @@
+
+import java.util.Scanner;
+
+public class product_of_aandb{
+
+public static void MultiplyTwoNumbers(){
+    int a = 4;
+    int b = 3;
+    int total = a*b;
+    System.out.println("multiply of "+a+" and "+b+" = "+total);
+}    
+
+public static int MultipleNumbers(int num1, int num2){
+    int total = num1 * num2;
+    return total;
+}
+
+public static void addTwoNumbers(int num1, int num2){
+    int sum = num1 + num2;
+    System.out.println(sum);
+}
+
+
+public static void main(String[] args) {
+    int numbers = 0;
+numbers = MultipleNumbers(5, 23);
+System.out.println(numbers);
+MultiplyTwoNumbers();
+
+Scanner objScanner = new Scanner(System.in);
+
+System.out.println("Please enter first number");
+int num1 = objScanner.nextInt();
+
+System.out.println("Please enter second number");
+int num2 = objScanner.nextInt();
+addTwoNumbers(num1, num2);
+
+    }
+}
+
