@@ -1,0 +1,14 @@
+
+
+public class Question_two {
+    public static void main(String[] args) {
+        double  usertemp = 103.5;
+        double  temp = 100;
+         if (temp<usertemp){
+            System.out.println("you have fever ");
+         }
+         else{
+            System.out.println("you dont have fever");
+         }
+    }
+}
