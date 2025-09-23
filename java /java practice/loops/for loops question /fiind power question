@@ -1,0 +1,18 @@
+package loops;
+
+import java.util.Scanner;
+
+public class poewer {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the base number");
+        int a = sc.nextInt();
+        System.out.println("Enter the power");
+        int b= sc.nextInt();
+         int reseult=1;
+         for(int i=0;i<b;i++){
+                reseult=reseult*a;
+         }
+         System.out.println(reseult);
+    }
+}
