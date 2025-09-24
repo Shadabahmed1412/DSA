@@ -1,0 +1,24 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+package nestedloop.whileloop;
+
+import java.util.Scanner;
+
+public class sum_of_digite {
+   public sum_of_digite() {
+   }
+
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      System.out.println("Enter a number to find sum of digite");
+      int var2 = var1.nextInt();
+      int var3 = 0;
+
+      int var5;
+      for(int var4 = var2; var4 > 0; var3 += var5) {
+         var5 = var4 % 10;
+         var4 /= 10;
+      }
+
+      System.out.println("Sum of digite of " + var2 + " is " + var3);
+   }
+}
