@@ -1,0 +1,21 @@
+package loops.oops;
+class phone {   
+    String color;
+    int price;
+    
+
+    
+}
+public class oopsinto {
+    
+    public static void main(String[] args) {
+        phone onepluse7 = new phone();
+        phone onepluse8 = new phone();
+        onepluse7.color = "red";
+        onepluse7.price = 30000;
+        onepluse8.color = "blue";
+        onepluse8.price = 35000;
+        System.out.println(onepluse7.color);
+        System.out.println(onepluse7.price);
+    }
+}
